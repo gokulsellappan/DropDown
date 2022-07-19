@@ -1,0 +1,137 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_roomCount",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "personName",
+						"type": "string"
+					}
+				],
+				"name": "Booking",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "RoomBook",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "roomNo",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "bookPersonName",
+						"type": "string"
+					},
+					{
+						"internalType": "enum HotelBookRooms.Status",
+						"name": "status",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bookedCount",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "roomCount",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice/HotelBookRooms.sol": "HotelBookRooms"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice/HotelBookRooms.sol": {
+			"keccak256": "0xc8793b0398ab1abe26b5ca05e46f3368fc2d8e5997024edaeea3be1c7b04f51b",
+			"urls": [
+				"bzz-raw://c10a703f32ea0186f8e4caf83bc087ccfd69bb951529b825ae179888378f8aeb",
+				"dweb:/ipfs/QmePSYy2gwBk6oEzgAfqRRR4jijzzqwnUzDyRHzpwUxsWx"
+			]
+		}
+	},
+	"version": 1
+}

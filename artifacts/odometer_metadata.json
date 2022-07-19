@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "carmap",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "vin",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "kilometer",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_vin",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_kilometer",
+						"type": "uint256"
+					}
+				],
+				"name": "createCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_vin",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_vin",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_kilometer",
+						"type": "uint256"
+					}
+				],
+				"name": "updateKilometer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice/odometer.sol": "odometer"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice/odometer.sol": {
+			"keccak256": "0x7b878ed80e260e6c6eed8ba498d67e1de236d9e0d4a674198eb0d183ee6ea6dc",
+			"urls": [
+				"bzz-raw://ec68fa1fbd9ca1a8149713489c00dfebca7e729b4a6f4d50b24456e8d81e11f6",
+				"dweb:/ipfs/QmdLYRhc9eKCatZEEbdymuYERsDqcHyJZzSXb5vk8e83Sv"
+			]
+		}
+	},
+	"version": 1
+}
